@@ -9,7 +9,7 @@ main {
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: safe;
   height: 100vh;
   width: 100vw;
 }
@@ -20,7 +20,6 @@ main {
   align-items: center;
   display: flex;
   width: 45vw;
- 
 }
 
 .title-text {
@@ -32,14 +31,12 @@ main {
 }
 
 .title-text img {
-
   margin: 1rem;
   float: left;
   width: 100px;
 }
 
 .title-text h1 {
-  
   font-size: 45px;
   margin-top: 4rem;
   align-items: center;
@@ -47,13 +44,14 @@ main {
 }
 
 .text-container {
-  margin-top: 3rem;
+  margin-top: 6rem;
   margin-left: 3rem;
   margin-bottom: 1rem;
+  width: 55%;
 }
 .text-container p {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 19px;
 }
 
 .form-container {
@@ -64,6 +62,11 @@ main {
   padding-top: 1rem;
   height: 30vh;
   flex-direction: column;
+}
+
+.form-container label {
+  font-size: 0.7rem;
+  padding-bottom: 3px;
 }
 
 .first-column {
@@ -84,37 +87,23 @@ main {
   width: 50%;
 }
 
-.form-container label {
-  font-size: 0.8rem;
-  padding-bottom: 3px;
-}
-
 .button-container {
   display: block;
-  margin-top: 2rem;
-  margin-left: 3rem;
+  margin-top: 5rem;
 }
 
 input {
+  background-color: #fffefe;
+  border: 1px solid #ebecee;
   margin-bottom: 7px;
   border-radius: 5px;
-  border-color: rgb(238, 238, 238);
   width: 20vw;
   height: 30px;
 }
 
-button {
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  box-shadow: 1px 1px 9px #acacac;
-  background-color: rgb(168, 102, 90);
-  padding: 0.8rem 2.5rem;
-  border-radius: 5px;
-}
-
 input:focus {
   border-color: blue;
-  box-shadow: 1px 1px 9px #acacac;
+  box-shadow: 1px 1px 7px #acacac;
 }
 
 .input-container {
@@ -122,7 +111,21 @@ input:focus {
   justify-content: left;
 }
 
+button {
+  border: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  box-shadow: 1px 1px 9px #acacac;
+  background-color: #d43f4c;
+  padding: 0.8rem 3rem;
+  border-radius: 5px;
+}
+
 a {
-  color: rgb(168, 102, 90);
+  color: #d43f4c;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }

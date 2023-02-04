@@ -1,65 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign-Up</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="title-container">
-      <div class="title-text">
-        <img src="images/odin-lined.png" alt="logo" />
-        <h1>ODIN</h1>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign-Up</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="title-container">
+    <div class="title-text">
+      <img src="images/odin-lined.png" alt="logo" />
+      <h1>ODIN</h1>
     </div>
-    <main>
-      <div class="text-container">
-        <p>
-          This is not a real online service! You know you need something like
-          this in your life to help you realize your deepest dreams. Sign up
-          <em>now</em> to get started. <p>You <em>know</em> you want to.</p>
-        </p>
-      </div>
+  </div>
+  <main>
+    <div class="text-container">
+      <p>
+        This is not a real online service! You know you need something like
+        this in your life to help you realize your deepest dreams.
+        <br> Sign up <em>now</em> to get started.</br>
+      <p>You <em>know</em> you want to.</p>
+      </p>
+    </div>
 
-      <div class="form-container">
-        
-        <h2>Let's do this!</h2>
+    <div class="form-container">
 
-        <div class="input-container">
-          <form>   
-                  <div class="first-column">
-                    <label for="first_name">FIRST NAME</label>
-                    <input type="text" id="first_name" placeholder="Thor" required/>
-                    <label for="user_email">EMAIL</label>
-                    <input type="email" placeholder="thor.odinson@odinproject.com" required/> 
-                    <label for="user_password">PASSWORD</label>
-                    <input type="password" id="enter_password" pattern="^\S{6,}$" placeholder="Password" required>
-                  </div>
+      <h3>Let's do this!</h3>
 
-                  <div class="second-column">
+      <div class="input-container">
 
-                    <label for="last_name">LAST NAME</label>
-                    <input type="text" placeholder="Odinson" required/>
-                    
-                    <label for="user_number">PHONE NUMBER</label>
-                    <input type="number" placeholder="(xxx) xxx xx xx" required/>
-                  
-                    <label for="user_password">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm_password" pattern="^\S{6,}$" placeholder="Verify Password" required>
-                  </div>
-            
-                </form>
-        </div>
+        <form>
+          <div class="first-column">
+            <label for="first_name">FIRST NAME</label>
+            <input type="text" id="first_name" placeholder="Thor" required />
+            <label for="user_email">EMAIL</label>
+            <input type="email" placeholder="thor.odinson@odinproject.com" required />
+            <label for="user_password">PASSWORD</label>
+            <input type="password" id="enter_password" pattern="^\S{6,}$" placeholder="Password" required />
+          </div>
+          <div class="second-column">
+            <label for="last_name">LAST NAME</label>
+            <input type="text" placeholder="Odinson" required />
 
-      
+            <label for="user_number">PHONE NUMBER</label>
+            <input type="number" placeholder="(xxx) xxx xx xx" required />
+
+            <label for="user_password">CONFIRM PASSWORD</label>
+            <input type="password" id="confirm_password" pattern="^\S{6,}$" placeholder="Verify Password" required />
+          </div>
       </div>
       <div class="button-container">
         <button type="submit">Create Account</button>
         <p>Already have an account? <a href="">Log in</a></p>
       </div>
-    </main>
-  </body>
+      </form>
+
+    </div>
+
+
+
+  </main>
+</body>
+
 </html>
