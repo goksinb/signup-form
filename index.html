@@ -29,30 +29,27 @@
         <h2>Let's do this!</h2>
 
         <div class="input-container">
-          <form action="">
-                  
+          <form>   
                   <div class="first-column">
                     <label for="first_name">FIRST NAME</label>
-                    <input type="text" id="first_name" placeholder="Thor" />
+                    <input type="text" id="first_name" placeholder="Thor" required/>
                     <label for="user_email">EMAIL</label>
-                    <input type="email" placeholder="thor.odinson@odinproject.com"/> 
+                    <input type="email" placeholder="thor.odinson@odinproject.com" required/> 
                     <label for="user_password">PASSWORD</label>
-                    <input type="password" />
+                    <input type="password" id="enter_password" pattern="^\S{6,}$" placeholder="Password" required>
                   </div>
-
 
                   <div class="second-column">
 
                     <label for="last_name">LAST NAME</label>
-                    <input type="text" placeholder="Odinson"/>
-                  
+                    <input type="text" placeholder="Odinson" required/>
+                    
                     <label for="user_number">PHONE NUMBER</label>
-                    <input type="number" placeholder="(xxx) xxx xx xx" />
+                    <input type="number" placeholder="(xxx) xxx xx xx" required/>
                   
                     <label for="user_password">CONFIRM PASSWORD</label>
-                    <input type="password" />
+                    <input type="password" id="confirm_password" pattern="^\S{6,}$" placeholder="Verify Password" required>
                   </div>
-                  
             
                 </form>
         </div>
