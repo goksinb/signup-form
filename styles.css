@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(248, 249, 250);
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+main {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.title-container {
+  background-image: url(https://images.pexels.com/photos/3014955/pexels-photo-3014955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  width: 45vw;
+ 
+}
+
+.title-text {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #2e2e2e71;
+  color: rgb(124, 60, 49);
+}
+
+.title-text img {
+
+  margin: 1rem;
+  float: left;
+  width: 100px;
+}
+
+.title-text h1 {
+  
+  font-size: 45px;
+  margin-top: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+.text-container p {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.form-container {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0.2rem 10px #cdcdcd;
+  padding: 3rem;
+  padding-top: 1rem;
+  height: 30vh;
+  flex-direction: column;
+}
+
+.first-column {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.first-column input {
+  margin-right: 2rem;
+}
+
+.second-column {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.form-container label {
+  font-size: 0.8rem;
+  padding-bottom: 3px;
+}
+
+.button-container {
+  display: block;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+input {
+  margin-bottom: 7px;
+  border-radius: 5px;
+  border-color: rgb(238, 238, 238);
+  width: 20vw;
+  height: 30px;
+}
+
+button {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  box-shadow: 1px 1px 9px #acacac;
+  background-color: rgb(168, 102, 90);
+  padding: 0.8rem 2.5rem;
+  border-radius: 5px;
+}
+
+input:focus {
+  border-color: blue;
+  box-shadow: 1px 1px 9px #acacac;
+}
+
+.input-container {
+  display: flex;
+  justify-content: left;
+}
+
+a {
+  color: rgb(168, 102, 90);
+  text-decoration: none;
+}
