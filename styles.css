@@ -1,4 +1,5 @@
 body {
+  color: rgb(26, 26, 26);
   background-color: rgb(248, 249, 250);
   display: flex;
   flex-direction: row;
@@ -15,10 +16,10 @@ main {
 }
 
 .title-container {
-  background-image: url(https://images.pexels.com/photos/3014955/pexels-photo-3014955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(https://images.pexels.com/photos/699459/pexels-photo-699459.jpeg);
   background-size: cover;
   align-items: center;
-  display: flex;
+  
   width: 45vw;
 }
 
@@ -26,8 +27,9 @@ main {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #2e2e2e71;
-  color: rgb(124, 60, 49);
+  margin-top: 7rem;
+  background-color: #52525241;
+  color: #13373a;
 }
 
 .title-text img {
@@ -37,7 +39,8 @@ main {
 }
 
 .title-text h1 {
-  font-size: 45px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
   margin-top: 4rem;
   align-items: center;
   justify-content: center;
@@ -89,7 +92,7 @@ main {
 
 .button-container {
   display: block;
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
 input {
@@ -112,17 +115,18 @@ input:focus {
 }
 
 button {
+  cursor: pointer;
   border: none;
   color: rgb(255, 255, 255);
   font-weight: bold;
   box-shadow: 1px 1px 9px #acacac;
-  background-color: #d43f4c;
+  background-color: #2e8690;
   padding: 0.8rem 3rem;
   border-radius: 5px;
 }
 
 a {
-  color: #d43f4c;
+  color: #2e8690;
   text-decoration: none;
 }
 
